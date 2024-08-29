@@ -32,6 +32,8 @@
             {
                 Value = Random.CreateFromIndex(authoring.randomSeed),
             });
+            
+            this.AddComponent<ZombieSpawnPoints>(graveyardEntity);
         }
     }
 }
